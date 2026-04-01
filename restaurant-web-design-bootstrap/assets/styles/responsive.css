@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  /* Deals section */
+  .menu {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .menu-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .grey-back {
+    width: 100%;
+  }
+  .menu-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  /* Discover menu */
+  .d-menu-card {
+    margin-bottom: 40px;
+  }
+
+  /* Testimonials */
+  .testi-title {
+    font-size: 32px;
+  }
+  .testi-images {
+    margin-top: 40px;
+    height: 350px;
+  }
+
+  /* Reservation */
+  .reserve-headline {
+    font-size: 2.5rem;
+  }
+  .hero-section {
+    padding: 2rem 1.5rem;
+  }
+  .form-section {
+    padding: 2rem 1.5rem;
+  }
+  .discover-tag {
+    font-size: 1.4rem;
+  }
+  .reservation-card {
+    border-radius: 28px;
+  }
+
+  /* Footer */
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/*SM*/
+@media (max-width: 576px) {
+  /* Menu tabs */
+  .menu-item {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+  .menu-item i {
+    font-size: 0.9rem;
+  }
+
+  /* Reservation form */
+  .form-control,
+  .form-select {
+    font-size: 0.9rem;
+    padding: 0.75rem 0.9rem;
+  }
+  .btn-submit {
+    padding: 0.75rem;
+  }
+}

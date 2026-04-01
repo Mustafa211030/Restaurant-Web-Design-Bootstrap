@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-image: url('/assets/images/dp.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 270px;
+            height: 350px;
+            background-color: rgb(96, 96, 96);
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card:hover {
+            
+        }
+
+        .card .card-overlay {
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            width: 90%;
+            height: 90%;
+            background-color: transparent;
+            border: 4px solid yellow;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .card-overlay .tag {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            border: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: 800;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-color: yellow;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>this is card</h1>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-overlay">
+                        <div class="tag">Restaurant</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-overlay">
+                        <div class="tag">Restaurant</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-overlay">
+                        <div class="tag">Restaurant</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
